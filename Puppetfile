@@ -50,7 +50,7 @@ mod 'puppet/python', '4.0.0'
 
 #mod 'saz/sudo', '6.0.0'
 
-mod 'puppetlabs/support_tasks', '1.1.2'
+#mod 'puppetlabs/support_tasks', '1.1.2'
 
 #mod 'scrat14/ovirt_guest_agent', '0.5.0'
 
