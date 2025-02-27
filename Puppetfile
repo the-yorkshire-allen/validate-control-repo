@@ -16,7 +16,7 @@ mod 'puppetlabs/pwshlib', '0.10.1'
 mod 'puppetlabs-apt', '8.5.0'
 #mod 'puppetlabs/translate', '2.2.0'
 
-mod 'puppet/archive', '4.5.0'
+#mod 'puppet/archive', '4.5.0'
 
 #mod 'herculesteam/augeasproviders_core', '2.6.0'
 
