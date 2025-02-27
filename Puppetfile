@@ -74,7 +74,7 @@ mod 'puppet/extlib', '4.2.0'
 
 mod 'puppetlabs/haproxy', '4.2.1'
 
-mod 'puppetlabs/inifile', '4.2.0'
+#mod 'puppetlabs/inifile', '4.2.0'
 
 mod 'puppetlabs/mysql', '10.6.0'
 
