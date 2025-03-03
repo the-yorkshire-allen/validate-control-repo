@@ -1,10 +1,10 @@
 #
 class profile::exported {
 
-  @@host { $facts['fqdn']:
+  @@host { $facts['networking']['fqdn']:
     ensure => 'present',
-    host_aliases => [ $facts['hostname'] ],
-    ip => $facts['ipaddress'],
+    host_aliases => [ $facts['networking']['hostname'] ],
+    ip => $facts['networking']['ipaddress'],
     tag => 'exportedresource',
   }
 
