@@ -29,6 +29,10 @@ node test_node2 {
   include profile::exported
 }
 
+node test_node1 {
+  include profile::exported
+}
+
 node default {
   # This is where you can declare classes for all nodes.
   # Example:
