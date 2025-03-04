@@ -25,6 +25,10 @@ File { backup => false }
 #
 # For more on node definitions, see: https://puppet.com/docs/puppet/latest/lang_node_definitions.html
 
+node test_node3 {
+  include profile::exported
+}
+
 node test_node2 {
   include profile::exported
 }
