@@ -5,7 +5,7 @@ class profile::exported {
     ensure => 'present',
     host_aliases => [ $facts['networking']['hostname'] ],
     ip => $facts['networking']['ipaddress'],
-    tag => 'exportedresource',
+    tag => [ 'exportedresource', 'hostresource' ],
   }
 
   Host <<| tag == 'exportedresource' |>>
