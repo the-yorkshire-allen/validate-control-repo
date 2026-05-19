@@ -1,6 +1,6 @@
 forge 'https://forge.puppet.com'
 
-mod 'puppetlabs/concat',  '7.4.0'
+mod 'puppetlabs/concat',  '9.1.0'
 mod 'puppetlabs-exec', '2.2.1'
 mod 'puppetlabs-support_tasks', '4.1.0'
 
@@ -8,12 +8,12 @@ mod 'puppet/archive', '6.0.2'
 mod 'puppetlabs/chocolatey', '6.1.1'
 mod 'puppetlabs/inifile', '5.2.0'
 mod 'puppetlabs/ruby_task_helper', '0.6.0'
-mod 'puppetlabs/stdlib', '8.1.0'
+mod 'puppetlabs/stdlib', '9.7.0'
 mod 'puppetlabs/powershell', '5.0.0'
 mod 'puppetlabs/registry', '4.0.1'
 mod 'puppetlabs/pwshlib', '0.10.1'
 
-mod 'puppetlabs-apt', '8.5.0'
+mod 'puppetlabs-apt', '11.3.1'
 #mod 'puppetlabs/translate', '2.2.0'
 
 #mod 'puppet/archive', '4.5.0'
@@ -90,9 +90,9 @@ mod 'puppet/squid', '2.2.2'
 
 #mod 'saz/timezone', '6.0.0'
 
-mod 'theforeman/foreman', '15.1.0'
+#mod 'theforeman/foreman', '15.1.0'
 
-mod 'theforeman/foreman_proxy', '12.1.0'
+#mod 'theforeman/foreman_proxy', '12.1.0'
 
 #mod 'jamesnetherton/google_chrome', '0.9.0'
 
