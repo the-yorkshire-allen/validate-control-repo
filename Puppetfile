@@ -2,8 +2,7 @@ forge 'https://forge.puppet.com'
 
 mod 'conductor',
   :git => 'https://github.com/the-yorkshire-allen/puppetlabs-conductor.git',
-  :branch => 'main',
-  :git_settings => { :private_key => '/etc/puppetlabs/puppetserver/ssh/conductor-module-deploy' }
+  :branch => 'main'
 
 mod 'puppetlabs/concat',  '9.1.0'
 mod 'puppetlabs-exec', '2.2.1'
