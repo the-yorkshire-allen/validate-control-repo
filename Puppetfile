@@ -1,5 +1,8 @@
 forge 'https://forge.puppet.com'
 
+mod 'conductor',
+  :git => 'https://github.com/the-yorkshire-allen/puppetlabs-conductor.git'
+
 mod 'puppetlabs/concat',  '9.1.0'
 mod 'puppetlabs-exec', '2.2.1'
 mod 'puppetlabs-support_tasks', '4.1.0'
