@@ -44,14 +44,8 @@ node default {
   # Example:
   #   class { 'my_class': }
   $pp_role = $trusted['extensions']['pp_role']
-  
-  if "${trusted['extensions']['pp_role']}" == 'warden_compiler' {
-    
-    # Your specific classification logic goes here
-    # For example, applying a profile or pinning behavior:
-    include puppet_enterprise::profile::master
-    
-  } else {
+     
+  if $pp_role {
     include $pp_role
   } 
 }
