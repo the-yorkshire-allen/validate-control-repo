@@ -43,9 +43,7 @@ node default {
   #   class { 'my_class': }
   $pp_role = $trusted['extensions']['pp_role']
 
-  if $pp_role =~ /^puppet_enterprise::/ {
+  if $pp_role {
     include $pp_role
-  } elsif $pp_role {
-    include "role::${pp_role}"
-  }
+  } 
 }
