@@ -38,12 +38,20 @@ node test_node1 {
 }
 
 node default {
+
+
   # This is where you can declare classes for all nodes.
   # Example:
   #   class { 'my_class': }
   $pp_role = $trusted['extensions']['pp_role']
-
-  if $pp_role {
+  
+  if "${trusted['extensions']['pp_role']}" == 'warden_compiler' {
+    
+    # Your specific classification logic goes here
+    # For example, applying a profile or pinning behavior:
+    include puppet_enterprise::profile::master
+    
+  } else {
     include $pp_role
   } 
 }
